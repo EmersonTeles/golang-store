@@ -18,11 +18,11 @@
     ></script>
     <title>Golang store</title>
   </head>
-  <nav class="navbar navbar-light bg-light mb-4">
-    <a class="navbar-brand" href="/">Golang store</a>
-  </nav>
 
   <body>
+    <nav class="navbar navbar-light bg-light mb-4">
+      <a class="navbar-brand" href="/produtos">Golang store</a>
+    </nav>
     <div class="container">
       <section class="card">
         <div>
@@ -46,6 +46,11 @@
               {{end}}
             </tbody>
           </table>
+        </div>
+        <div class="card-footer">
+          <a href="/produtos/novo" class="btn btn-primary"
+            >Criar Novo produto</a
+          >
         </div>
       </section>
     </div>
